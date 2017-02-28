@@ -1,13 +1,13 @@
 services:
-    loevgaard_dandomain_period_helper.helper:
-        class: Loevgaard\DandomainPeriodHelperBundle\Helper\Helper
+    loevgaard_dandomain_sort_helper.helper:
+        class: Loevgaard\DandomainSortHelperBundle\Helper\Helper
         calls:
             - [setContainer, ['@service_container']]
 
-    loevgaard_dandomain_period_helper.twig_extension:
-            class: Loevgaard\DandomainPeriodHelperBundle\Twig\DandomainPeriodExtension
+    loevgaard_dandomain_sort_helper.twig_extension:
+            class: Loevgaard\DandomainSortHelperBundle\Twig\DandomainSortExtension
             arguments:
-                - "@loevgaard_dandomain_period_helper.helper"
+                - "@loevgaard_dandomain_sort_helper.helper"
             public: false
             tags:
                 - { name: twig.extension }

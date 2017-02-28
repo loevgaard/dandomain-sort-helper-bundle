@@ -1,3 +1,3 @@
-# Getting started with the Dandomain Period Helper Bundle
+# Getting started with the Dandomain Sort Helper Bundle
 
 TODO

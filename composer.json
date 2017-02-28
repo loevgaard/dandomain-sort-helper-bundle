@@ -1,10 +1,10 @@
 {
-    "name": "loevgaard/dandomain-period-helper-bundle",
+    "name": "loevgaard/dandomain-sort-helper-bundle",
     "minimum-stability": "dev",
     "type": "symfony-bundle",
-    "description": "Dandomain Period Helper Bundle for Symfony",
-    "keywords": ["dandomain", "pay"],
-    "homepage": "https://github.com/loevgaard/dandomain-period-helper-bundle",
+    "description": "Dandomain Sort Helper Bundle for Symfony",
+    "keywords": ["dandomain", "sort"],
+    "homepage": "https://github.com/loevgaard/dandomain-sort-helper-bundle",
     "license": "MIT",
     "authors": [
         {
@@ -20,7 +20,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Loevgaard\\DandomainPeriodHelperBundle\\": ""
+            "Loevgaard\\DandomainSortHelperBundle\\": ""
         }
     }
 }
