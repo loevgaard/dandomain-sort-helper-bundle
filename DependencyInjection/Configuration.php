@@ -13,15 +13,9 @@ class Configuration implements ConfigurationInterface
 
         $rootNode
             ->children()
-                ->integerNode('offset')
-                    ->defaultValue(0)->end()
-                ->end()
-                ->integerNode('year_begin')
-                    ->defaultValue(2017)->end()
-                ->end()
-                ->scalarNode('period_weekday_begin')
-                    ->defaultValue('sunday')->end()
-                ->end()
+                ->integerNode('offset')->defaultValue(0)->end()
+                ->integerNode('year_begin')->defaultValue(2017)->end()
+                ->scalarNode('period_weekday_begin')->defaultValue('sunday')->end()
             ->end()
         ;
 
