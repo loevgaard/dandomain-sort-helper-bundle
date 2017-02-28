@@ -1,0 +1,26 @@
+{
+    "name": "loevgaard/dandomain-period-helper-bundle",
+    "minimum-stability": "dev",
+    "type": "symfony-bundle",
+    "description": "Dandomain Period Helper Bundle for Symfony",
+    "keywords": ["dandomain", "pay"],
+    "homepage": "https://github.com/loevgaard/dandomain-period-helper-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Joachim Loevgaard",
+            "email": "joachim@loevgaard.dk"
+        }
+    ],
+    "require": {
+        "php": "^5.5.9 || ^7.0",
+        "symfony/framework-bundle": "^2.7 || ^3.0",
+        "symfony/filesystem": "^2.7 || ^3.0",
+        "twig/twig": "^1.2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Loevgaard\\DandomainPeriodHelperBundle\\": ""
+        }
+    }
+}

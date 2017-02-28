@@ -1,0 +1,13 @@
+services:
+    loevgaard_dandomain_period_helper.helper:
+        class: Loevgaard\DandomainPeriodHelperBundle\Helper\Helper
+        calls:
+            - [setContainer, ['@service_container']]
+
+    loevgaard_dandomain_period_helper.twig_extension:
+            class: Loevgaard\DandomainPeriodHelperBundle\Twig\DandomainPeriodExtension
+            arguments:
+                - "@loevgaard_dandomain_period_helper.helper"
+            public: false
+            tags:
+                - { name: twig.extension }

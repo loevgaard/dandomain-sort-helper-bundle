@@ -1,1 +1,3 @@
-# dandomain-period-helper-bundle
+# Getting started with the Dandomain Period Helper Bundle
+
+TODO
